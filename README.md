@@ -47,9 +47,9 @@ To deploy the Reddog services along with the necessary Azure Resources, clone th
 
 ```bash
 # *nix only
-export RG="reddog"
-export LOCATION="eastus2"
-export SUB_ID="<YourSubscriptionID>"
+$RG="RG-EA-DEV-KUL-CLOUD-ENG"
+$LOCATION="australiaeast"
+$SUB_ID="b194fb80-8256-4501-9382-413a3bd7a13e"
 
 # Follow Azure CLI prompts to authenticate to the subscription of your choice
 az login
